@@ -14,8 +14,10 @@ This repository is organized into two main folders:
 Within the `notebooks` folder, you will find the following examples:
 
 - **pgvector-embedding.ipynb**: Demonstrates the process of using OpenAI's Embedding Models to embed data and store it in a PostgreSQL database using `pgvector`.
+- **pgvector-embedding.ipynb**: Demonstrates the process of using Ollama and Nomic Embedding Models to embed data and store it in a PostgreSQL database using `pgvector`.
 - **pgvector-client.ipynb**: Shows how to retrieve documents efficiently from a PostgreSQL database using `pgvector`.
 - **pgvector-client-openai.ipynb**: An example of how to use a Large Language Model (LLM) to generate content based on vectors and questions, showcasing the integration with `pgvector`.
+- **pgvector-client-ollama.ipynb**: Same as above, but with Ollama and Nomic Embed Models.
 
 ## Docker Compose Setup
 
